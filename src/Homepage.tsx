@@ -4,15 +4,6 @@ import React, { useState } from "react";
 // import { Link } from 'react-router-dom'
 
 export default function Homepage(props: any) {
-    const divStyle: React.CSSProperties = {
-        backgroundImage: "url('https://images.pexels.com/photos/59989/elephant-herd-of-elephants-african-bush-elephant-africa-59989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundColor: 'green', // Fallback color if the image fails to load
-        color: 'white',
-        padding: '10px',
-      };
-
     return (
         <>
 			<div className="w-screen h-screen overflow-hidden relative before:block before:absolute before:bg-black before:h-full before:w-full before:top-0 before:left-0 before:z-10 before:opacity-30">
