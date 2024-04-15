@@ -11,7 +11,7 @@ export default function Homepage(props: any) {
 				<div className="relative z-20 max-w-screen-lg mx-auto grid grid-cols-12 h-full items-center">
     				<div className="col-span-6">
       					<span className="uppercase text-white text-xs font-bold mb-2 block">WE ARE EXPERTS</span>
-      						<h1 className="text-white font-extrabold text-5xl mb-8">Alberta Biodiversity Monitoring Institute</h1>
+      						<h1 className="text-white font-extrabold text-3xl mb-4">Alberta Remote Camera Steering Committee (RCSC) </h1>
       						<p className="text-stone-100 text-base">
         						We offer you <span className="text-gray-300 font-bold"> Remote Camera Decision Support Tool: </span>  an innovative study design and analysis decision support system for users of remote cameras
       						</p>
